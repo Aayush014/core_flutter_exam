@@ -18,6 +18,7 @@ class _ExamAppState extends State<ExamApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: ThemeData.light(useMaterial3: true),
         // initialRoute: '/',
       routes: {
